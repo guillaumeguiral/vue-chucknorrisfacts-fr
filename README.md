@@ -1,4 +1,4 @@
-# vue-chucknorrisfacts-fr
+# Vue - Chucknorrisfacts - FR
 
 ## Project setup
 ```

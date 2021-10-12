@@ -5,8 +5,10 @@ specifiers:
   '@vue/cli-plugin-eslint': ~4.5.0
   '@vue/cli-service': ~4.5.0
   '@vue/eslint-config-prettier': ^6.0.0
+  axios: ^0.22.0
   babel-eslint: ^10.1.0
   core-js: ^3.6.5
+  css-star-rating: ^1.2.4
   eslint: ^6.7.2
   eslint-plugin-prettier: ^3.3.1
   eslint-plugin-vue: ^6.2.2
@@ -17,7 +19,9 @@ specifiers:
   vue-template-compiler: ^2.6.11
 
 dependencies:
+  axios: 0.22.0
   core-js: 3.18.2
+  css-star-rating: 1.2.4
   vue: 2.6.14
 
 devDependencies:
@@ -2170,6 +2174,14 @@ packages:
     resolution: {integrity: sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==}
     dev: true
 
+  /axios/0.22.0:
+    resolution: {integrity: sha512-Z0U3uhqQeg1oNcihswf4ZD57O3NrR1+ZXhxaROaWpDmsDTx7T2HNBV2ulBtie2hwJptu8UvgnJoK+BIqdzh/1w==}
+    dependencies:
+      follow-redirects: 1.14.4_debug@4.3.2
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /babel-eslint/10.1.0_eslint@6.8.0:
     resolution: {integrity: sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==}
     engines: {node: '>=6'}
@@ -3152,6 +3164,10 @@ packages:
       domutils: 2.8.0
       nth-check: 2.0.1
     dev: true
+
+  /css-star-rating/1.2.4:
+    resolution: {integrity: sha512-AIlU8JmssE0qQFzPt9AptB4/804v5SPxxFewq4KcovRrkNmxmoAY1kKjwCgM+cSk09mNywk0nCW95+3k3pbDVQ==}
+    dev: false
 
   /css-tree/1.0.0-alpha.37:
     resolution: {integrity: sha512-DMxWJg0rnz7UgxKT0Q1HU/L9BeJI0M6ksor0OgqOnF+aRCDWg/N2641HmVyU9KVIu0OVVWOb2IpC9A+BJRnejg==}
@@ -4231,7 +4247,6 @@ packages:
         optional: true
     dependencies:
       debug: 4.3.2
-    dev: true
 
   /for-in/1.0.2:
     resolution: {integrity: sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=}
