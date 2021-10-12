@@ -1,5 +1,8 @@
 # Vue - Chucknorrisfacts - FR
 
+## Demo
+
+https://elated-haibt-949b29.netlify.app/
 ## Project setup
 ```
 pnpm install
